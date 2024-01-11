@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about-us-content {
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .about-us h1 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  .about-us p {
+    margin-bottom: 10px;
+  }
+
+  .about-us-image {
+    margin-top: 20px;
+    max-width: 800px;
+  }
+
+  .about-us-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #484f56;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .footer-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .footer-links {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links li {
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+
+  .footer-form {
+    margin-top: 20px;
+  }
+
+  .footer-input {
+    padding: 7px;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .footer-submit-btn {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-section {
+      flex: 100%;
+      margin-bottom: 20px;
+    }
+  }
+</style>
+
+<body>
+  <main>
+    <section class="about-us">
+      <div class="about-us-content">
+        <h1>About Us</h1>
+        <p>
+          Welcome to TechTrove, your one-stop destination for the latest and greatest in technology products. We are
+          passionate about technology and are committed to providing top-notch gadgets and electronics to our valued
+          customers.
+        </p>
+        <p>
+          Our mission is to offer the best selection of cutting-edge tech products at competitive prices. Whether you're
+          a tech enthusiast or a casual user, we've got something for everyone.
+        </p>
+      </div>
+      <div class="about-us-image">
+        <!-- Add an image related to technology here -->
+        <img src="aboutusbg (2).jpg" alt="Technology Image">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-sections">
+      <div class="footer-section">
+        <h3 class="footer-heading">Connect with Us</h3>
+        <ul class="footer-links">
+          <li><a href="#">Shreya - Twitter</a></li>
+          <li><a href="#">Shreya - Instagram</a></li>
+          <li><a href="#">Riddhi - Twitter</a></li>
+          <li><a href="#">Riddhi - Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="footer-heading">Work with Us</h3>
+        <ul class="footer-links">
+          <li><a href="#">Sell on Techtrove</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Protect and Build Your Brand</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="footer-heading">Customer Care</h3>
+        <ul class="footer-links">
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Returns Centre</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-form">
+      <h3 class="footer-heading">Subscribe to our newsletter</h3>
+      <form action="#" method="post">
+        <input type="email" class="footer-input" placeholder="Enter your email">
+        <button type="input" class="footer-submit-btn" onclick="subprompt();">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>

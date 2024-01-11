@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Include the external CSS file -->
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  padding: 10px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(171, 159, 159);
+  height: 40px;
+  cursor: pointer;
+  padding: 9px;
+}
+
+.left > div,
+.right > div {
+  margin-left: 20px;
+  transition: color 0.4s;
+}
+
+.left > div:hover,
+.right > div:hover {
+  color: rgb(192, 28, 28);
+}
+
+/* Add additional styles for specific elements as needed */
+.right .number {
+  display: flex;
+  align-items: center;
+}
+
+.right .number i {
+  margin-right: 5px;
+}
+</style>
+<body>
+  <header>
+    <nav class="navbar-1 flex">
+      <div class="left flex">
+        <div class="Home">
+          Home
+        </div>
+        <div class="aboutus">
+          <a href="aboutus1.html">About Us</a>
+        </div>
+        <div class="contact">
+          Contact
+        </div>
+        <div class="faq">
+          FAQ
+        </div>
+      </div>
+      <div class="right flex">
+        <div class="number">
+          <i class="fa-solid fa-phone"></i>
+          <span>91+xxxx509194</span>
+        </div>
+        <div class="wishlist">
+          Wishlist
+        </div>
+        <div class="compare">
+          Compare
+        </div>
+        <div class="register">
+          <a href="signup.html">Register</a>
+        </div>
+        <div class="login">
+          <a href="signin.html">Login</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+</body>
+
+</html>

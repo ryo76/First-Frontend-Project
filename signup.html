@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    body {
+        background: #dfe9f5;
+        background-image: url(one.jpg);
+        background-size: cover;
+        backface-visibility: calc();
+    }
+
+    .wrapper {
+        width: 330px;
+        padding: 2rem 1rem;
+        margin: 120px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 10px 10px rgb(209, 197, 197);
+        background-image: url(one.jpg);
+        background: transparent;
+        border: 2px solid rgba(225, 225, 225, 2);
+
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: whitesmoke;
+        margin-bottom: 1.2rem;
+    }
+
+    form input {
+        width: 92%;
+        outline: none;
+        border: 1px solid#fff;
+        padding: 12px 20px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        background: #e4e4e4;
+    }
+
+    button {
+        font-size: 1rem;
+        margin-top: 1.8rem;
+        padding: 10px 0;
+        outline: none;
+        border: none;
+        width: 90%;
+        color: #fff;
+        cursor: pointer;
+        background: #007bff;
+        border-radius: 8px;
+
+    }
+
+    .anchortag{
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    button:hover {
+        background: #3c98fb;
+    }
+
+    input:focus {
+        border: 1px solid rgb(192, 192, 192);
+    }
+
+    .terms label {
+        color: white;
+    }
+
+    .terms {
+        margin-top: 0.2rem;
+    }
+
+    .terms input {
+        height: 1em;
+        width: 1em;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .terms label {
+        font-size: 0.7rem;
+    }
+
+    .terms a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .member {
+        font-size: 0.8rem;
+        margin-top: 1.4rem;
+        color: white;
+    }
+
+    .member a {
+        color: rgb(0, 64, 255);
+        text-decoration: none;
+    }
+
+
+    body {
+        background-image: linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)), url(signinorup.jpg);
+    }
+
+    .return-container {
+        max-width: 16%;
+        margin-top: auto;
+        color: #fff;
+    }
+
+    .ret-btn {
+        margin-top: 500px 500px;
+        padding: 8px 20px;
+        background-color: #e4e4e4;
+        color: #131212;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <h1>Sign Up</h1>
+            <form action="#">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Name">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Re-Enter Password">
+            </form>
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <lable for="checkbox"><a href="#">I agree to these Terms and Conditions</a>
+                </lable>
+            </div>
+            <button>Sign up</button>
+            <div class="member">
+                Already a member? <a href="./signin.html">
+                    Sign in here
+                </a>
+            </div>
+        </div>
+    </main>
+    <center>
+        <div class="return-container">
+            <button type="submit" class="ret-btn"><a href="index.html" class="anchortag">Back to Home</a></button>
+        </div>
+    </center>
+
+</body>
+
+</html>
